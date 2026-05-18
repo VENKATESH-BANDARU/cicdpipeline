@@ -3,7 +3,7 @@ const app = express();
 const PORT = 4500;
 
 app.get('/', (req, res) => {
-  res.send('This is a sample api');
+  res.send(`<a href="/hello">Github</a> to see your repositories`);
 });
 
 app.listen(PORT, () => {
